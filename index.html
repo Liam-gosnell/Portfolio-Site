@@ -11,15 +11,16 @@
   <title>Liam Gosnell</title>
 
   <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="static/css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="static/css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
@@ -40,9 +41,7 @@
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
+    
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
       </li>
@@ -55,9 +54,10 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h3 class="mb-5">
+    <h2 class="text-light">Full Stack Web Developer</h2>
+      <h5 class="mb-5 text-light">
         <em>Welcome to my Portfolio Site</em>
-      </h3>
+      </h5>
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
     </div>
     <div class="overlay"></div>
@@ -69,7 +69,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Hi!</h2>
-          <p class="lead mb-5">I'm a Full Stack software developer living in Cork, Ireland. I have a passion for tech and developing websites / webapps.</p>
+          <p class="lead mb-5">I'm Liam, a Full Stack software developer living in Cork, Ireland. I have a passion for tech and developing websites / webapps.</p>
           <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What I Offer</a>
         </div>
       </div>
@@ -142,7 +142,7 @@
                 <p class="mb-0">A Full Stack frameworks project based on a graphic deisgn agency. This project includes Python, Django, Stripe.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/design.jpg" alt="">
+            <img class="img-fluid" src="static/img/design.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -153,7 +153,7 @@
                 <p class="mb-0">A Full Stack frameworks project based on a clothing eccomerce site. This project includes Python, Django, Stripe.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/clothes-main.jpg" alt="">
+            <img class="img-fluid" src="static/img/clothes-main.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -164,7 +164,7 @@
                 <p class="mb-0">A interactive frontend development project based on a automotive photography / reviews. This includes Html, Css, Bootstrap, JavaScript, Jquery</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/CB (4).png" alt="">
+            <img class="img-fluid" src="static/img/CB (4).png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -175,7 +175,7 @@
                 <p class="mb-0">A Data-Centric development project based on a film / movie reviews database. This project includes Python, Flask, MongoDB, Authentication</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/CB.png" alt="">
+            <img class="img-fluid" src="static/img/CB.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -186,7 +186,7 @@
                 <p class="mb-0">A Web Design project based on a coffee house. This project was build with Webflow a modern design & development platform.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/CB (7).png" alt="">
+            <img class="img-fluid" src="static/img/CB (7).png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -197,7 +197,7 @@
                 <p class="mb-0">A Web Design project based on a Transport company. This project was build with Webflow a modern design & development platform.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/CB (6).png" alt="">
+            <img class="img-fluid" src="static/img/CB (6).png" alt="">
           </a>
         </div>
       </div>
@@ -207,47 +207,44 @@
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      <h2 class="mb-4">I also have a freelance site...</h2>
+      <a target="_blank" href="https://www.liamgosnell.ie/" class="btn btn-xl btn-dark">Here!</a>
     </div>
   </section>
 
   <!-- Map -->
-  <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+  <section class="bg-primary" id="contact" class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19684.155788998512!2d-8.250971366388812!3d51.924477651158575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484362a20b01cd27%3A0x40cc24ab045c8a9f!2sCarrigane%2C%20Co.%20Cork%2C%20T45%20HY90!5e0!3m2!1sen!2sie!4v1599044716041!5m2!1sen!2sie" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
+    
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer bg-primary text-center">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/LiamGosnellWeb">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.facebook.com/LiamGosnellWeb">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/liam_gosnell">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/liam_gosnell">
             <i class="icon-social-twitter"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/liam_gosnell/">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.instagram.com/liam_gosnell/">
             <i class="icon-social-instagram"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/liam-gosnell-12635a195/">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.linkedin.com/in/liam-gosnell-12635a195/">
             <i class="icon-social-linkedin"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white" target="_blank" href="https://github.com/Liam-gosnell">
             <i class="icon-social-github"></i>
           </a>
         </li>
@@ -262,14 +259,14 @@
   </a>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="static/js/stylish-portfolio.min.js"></script>
 
 </body>
 
