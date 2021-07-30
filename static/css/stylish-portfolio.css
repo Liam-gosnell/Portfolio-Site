@@ -36,6 +36,10 @@ h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 60px!important;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -88,10 +92,14 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/IMG_1334.jpeg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 100%, rgba(255, 255, 255, 0.4) 100%), url("../img/coding3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header-container{
+  padding-top: 160px;
 }
 
 .purple-text {
@@ -321,7 +329,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1E1F24 !important;
+  background-color: #5E17EB !important;
   border-color: #1E1F24 !important;
   color: #fff !important;
 }
